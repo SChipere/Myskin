@@ -129,7 +129,7 @@
                     android:layout_height="150dp"
                     android:background="@color/white"
                     android:orientation="vertical"
-                    android:onClick="openMainActivity4"
+                    android:onClick="openMainActivity3"
                     android:padding="10dp">
 
                     <TextView
@@ -161,7 +161,7 @@
                         android:layout_height="75dp"
                         android:layout_marginBottom="5dp"
                         android:background="@color/white"
-                        android:onClick="openMainActivity3"
+                        android:onClick="openMainActivity4"
                         android:orientation="vertical"
                         android:padding="5dp">
 

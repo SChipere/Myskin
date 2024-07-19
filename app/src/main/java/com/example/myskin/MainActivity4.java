@@ -24,7 +24,7 @@ public class MainActivity4 extends AppCompatActivity {
     private static final int REQUEST_MICROPHONE_PERMISSION = 1;
     private static final int REQUEST_CODE_SPEECH_INPUT = 100;
     private TextView results;
-    private static final String NGROK_URL = "https://4edf-102-117-131-13.ngrok-free.app";
+    private static final String NGROK_URL = "https://92b0-102-117-164-5.ngrok-free.app";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

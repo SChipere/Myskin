@@ -5,7 +5,7 @@
     android:orientation="vertical"
     android:background="#148c8c"
     android:padding="5dp"
-    tools:context=".MainActivity3">
+    tools:context=".MainActivity5">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -103,53 +103,28 @@
         android:scaleType="centerInside"
         android:src="@drawable/placeholder" />
 
-    <!-- LinearLayout containing the TextViews behaving like buttons -->
-    <LinearLayout
-        android:layout_width="380dp"
-        android:layout_gravity="center"
+    <!-- TextView for displaying the labels and confidence scores -->
+    <TextView
+        android:id="@+id/textViewPredictions"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/button2"
-        android:orientation="vertical"
         android:layout_marginTop="10dp"
-        android:gravity="center">
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:text="Pick symptoms:" />
 
-        <TextView
-            android:id="@+id/textViewResults"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:padding="10dp"
-            android:text="Results"
-            android:textColor="@color/white"
-            android:textSize="18sp"
-            android:textStyle="bold"
-            android:layout_marginBottom="10dp" />
+    <!-- ScrollView to make the questionnaire scrollable -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
-        <TextView
-            android:id="@+id/textViewCamera"
-            android:layout_width="300dp"
+        <!-- LinearLayout containing the questionnaire -->
+        <LinearLayout
+            android:id="@+id/questionnaireLayout"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/button"
-            android:gravity="center"
-            android:padding="10dp"
-            android:text="Camera"
-            android:textColor="#148c8c"
-            android:textSize="18sp"
-            android:textStyle="bold"
-            android:layout_marginBottom="10dp" />
-
-        <TextView
-            android:id="@+id/textViewSend"
-            android:layout_width="300dp"
-            android:layout_height="wrap_content"
-            android:background="@drawable/button"
-            android:gravity="center"
-            android:padding="10dp"
-            android:text="Send"
-            android:textColor="#148c8c"
-            android:textSize="18sp"
-            android:layout_marginBottom="30dp"
-            android:textStyle="bold" />
-    </LinearLayout>
+            android:orientation="vertical"
+            android:padding="10dp" />
+    </ScrollView>
 
 </LinearLayout>
