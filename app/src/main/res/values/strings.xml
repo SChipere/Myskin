@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MySkin</string>
+    <string name="back4app_server_url">https://parseapi.back4app.com/</string>
+    <!-- Change the following strings as required -->
+    <string name="back4app_app_id">aekKZnmAttS8Wo5GWgLW0AONDdbFBqQz3KQY6B5h</string>
+    <string name="back4app_client_key">AUyX4aGOqvXzS73qzcEQPCuCXUdQRnMo57UYqlnY</string>
+</resources>
